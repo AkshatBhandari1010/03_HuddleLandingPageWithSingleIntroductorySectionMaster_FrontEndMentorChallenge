@@ -1,0 +1,227 @@
+@media (min-width:375px){
+  .c0{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-mobile.svg);
+    background-repeat:no-repeat;
+    height:220vw;
+    margin:-8px 0 0 -7px;
+    padding:16px;
+    width:90vw;
+  }
+  .c1{
+    display:flex;
+    flex-direction:column;
+    width:90%;
+  }
+  .c2{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    width:100%;
+  }
+  .svg1{
+    display:flex;
+    margin:0px 0 15px 0;
+    width:7.5rem;
+  }
+  .svg2{
+    display:flex;
+    margin:5px 0 0 0;
+    width:19rem
+  }
+  .c3{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    width:100%;
+  }
+  .h{
+    color:white;
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    margin:0px 0 -20px 0;
+    text-align:center;
+  }
+  .p{
+    color:hsl(257, 30%, 90%);
+    display:flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size:15.5px;
+    font-weight:500;
+    margin:0 0 12px 0;
+    text-align:center;
+  }
+  .btn{
+    display:flex;
+    justify-content:center;
+    margin:0 0 50px 0;
+  }
+  .register{
+    background-color:white;
+    border:none;
+    border-radius:20px;
+    box-shadow: 0 0 7px 1px hsl(257, 40%, 30%);
+    color:hsl(257, 60%, 40%);
+    font-family: 'Poppins', sans-serif;
+    font-size:12px;
+    font-weight:500;
+    outline:none;
+    padding:8px 60px 8px 60px;
+  }
+  .register:hover{
+    background-color:hsl(300, 69%, 71%);
+    color:white;
+  }
+  .icon{
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:3px 100px 3px 100px ;
+  }
+  .fab{
+    font-size:14px;
+  }
+  .iconDiv{
+    align-items:center;
+    border:1px solid white;
+    border-radius:50%;
+    display:flex;
+    height:15px;
+    justify-content:center;
+    margin:0 0px 0 0;
+    padding:5px;
+    width:15px;
+  }
+  .iconDiv:hover{
+    border:1px solid hsl(300, 69%, 71%);
+    color:hsl(300, 69%, 71%);
+  }
+  .fb{
+
+  }
+  .twitter{
+
+  }
+  .insta{
+
+  }
+}
+
+
+@media (min-width:1440px){
+  .c0{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-repeat:no-repeat;
+    height:53vw;
+    width:100%;
+  }
+  .c1{
+    display:flex;
+    flex-direction:row;
+    padding:0 0 0 25px;
+    width:100%;
+  }
+  .c2{
+    display:flex;
+    flex-direction:column;
+    padding:60px 0 0 40px;
+    width:100%;
+  }
+  .svg1{
+    display:flex;
+    margin:0px 0 30px 0;
+    width:14vw;
+  }
+  .svg2{
+    display:flex;
+    margin:5px 0 0 0;
+    width:50vw;
+  }
+  .c3{
+    display:flex;
+    flex-direction:column;
+    padding:185px 130px 0 50px;
+    width:100%;
+  }
+  .h{
+    color:white;
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    justify-content:start;
+    margin:0px 0 -20px 0;
+    text-align:left;
+    width:94%;
+  }
+  .p{
+    color:hsl(257, 30%, 90%);
+    display:flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight:400;
+    justify-content:start;
+    margin:0 0 12px 0;
+    text-align:left;
+    width:94%;
+  }
+  .btn{
+    display:flex;
+    justify-content:start;
+    margin:0 0 50px 0;
+  }
+  .register{
+    background-color:white;
+    border:none;
+    border-radius:30px;
+    box-shadow: 0 0 7px 1px hsl(257, 40%, 30%);
+    color:hsl(257, 60%, 40%);
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    font-weight:500;
+    outline:none;
+    padding:15px 55px 15px 55px;
+  }
+  .register:hover{
+    background-color:hsl(300, 69%, 71%);
+    color:white;
+  }
+  .icon{
+    align-items:end;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+    padding:175px 20px 3px 50px ;
+    width:90%;
+  }
+  .fab{
+    font-size:18px;
+  }
+  .iconDiv{
+    align-items:center;
+    border:1px solid white;
+    border-radius:50%;
+    display:flex;
+    height:25px;
+    justify-content:center;
+    margin:7px;
+    padding:5px;
+    width:25px;
+  }
+  .iconDiv:hover{
+    border:1px solid hsl(300, 69%, 71%);
+    color:hsl(300, 69%, 71%);
+  }
+  .fb{
+
+  }
+  .twitter{
+
+  }
+  .insta{
+
+  }
+}
